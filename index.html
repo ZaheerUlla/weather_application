@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>weather app </title>
+</head>
+<body>
+    
+<div class="container">
+<div><input type="text" id="city-input" class="searchbar"  onfocus="this.placeholder=''" onblur="if(this.value==''){this.placeholder='Search City & Press Enter'}"></div>
+
+
+<div class="Detail">
+<h1 class="forecast" >Weather ForeCast </div>
+<h2 class="city">City Name: </h2>
+<h3 class="temp"> Temperature:</h3>
+</div>
+
+<div class="detail ">
+    <p class="country">Country:</p>
+    <p class="wind">Wind:</p>
+    <p class="humidity"> Humidity:</p>
+
+</div>
+</div>
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+
+<script src="script.js">
+
+
+
+</script>
+
+
+
+</body>
+</html>
